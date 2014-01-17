@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94FA8C911888D443005E5131 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FA8C901888D443005E5131 /* Foundation.framework */; };
+		94FA8C931888D443005E5131 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FA8C921888D443005E5131 /* CoreGraphics.framework */; };
+		94FA8C951888D443005E5131 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FA8C941888D443005E5131 /* UIKit.framework */; };
+		94FA8C9B1888D443005E5131 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94FA8C991888D443005E5131 /* InfoPlist.strings */; };
+		94FA8C9D1888D443005E5131 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FA8C9C1888D443005E5131 /* main.m */; };
+		94FA8CA11888D443005E5131 /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FA8CA01888D443005E5131 /* CHAppDelegate.m */; };
+		94FA8CAA1888D443005E5131 /* CHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FA8CA91888D443005E5131 /* CHViewController.m */; };
+		94FA8CAC1888D443005E5131 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94FA8CAB1888D443005E5131 /* Images.xcassets */; };
+		94FA8CB31888D443005E5131 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FA8CB21888D443005E5131 /* XCTest.framework */; };
+		94FA8CB41888D443005E5131 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FA8C901888D443005E5131 /* Foundation.framework */; };
+		94FA8CB51888D443005E5131 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FA8C941888D443005E5131 /* UIKit.framework */; };
+		94FA8CBD1888D443005E5131 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94FA8CBB1888D443005E5131 /* InfoPlist.strings */; };
+		94FA8CBF1888D443005E5131 /* RGFlipbookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FA8CBE1888D443005E5131 /* RGFlipbookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94FA8CB61888D443005E5131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94FA8C851888D443005E5131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94FA8C8C1888D443005E5131;
+			remoteInfo = RGFlipbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94FA8C8D1888D443005E5131 /* RGFlipbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGFlipbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FA8C901888D443005E5131 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94FA8C921888D443005E5131 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94FA8C941888D443005E5131 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94FA8C981888D443005E5131 /* RGFlipbook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RGFlipbook-Info.plist"; sourceTree = "<group>"; };
+		94FA8C9A1888D443005E5131 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94FA8C9C1888D443005E5131 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94FA8C9E1888D443005E5131 /* RGFlipbook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RGFlipbook-Prefix.pch"; sourceTree = "<group>"; };
+		94FA8C9F1888D443005E5131 /* CHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHAppDelegate.h; sourceTree = "<group>"; };
+		94FA8CA01888D443005E5131 /* CHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAppDelegate.m; sourceTree = "<group>"; };
+		94FA8CA81888D443005E5131 /* CHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHViewController.h; sourceTree = "<group>"; };
+		94FA8CA91888D443005E5131 /* CHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHViewController.m; sourceTree = "<group>"; };
+		94FA8CAB1888D443005E5131 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94FA8CB11888D443005E5131 /* RGFlipbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGFlipbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FA8CB21888D443005E5131 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		94FA8CBA1888D443005E5131 /* RGFlipbookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RGFlipbookTests-Info.plist"; sourceTree = "<group>"; };
+		94FA8CBC1888D443005E5131 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94FA8CBE1888D443005E5131 /* RGFlipbookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGFlipbookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94FA8C8A1888D443005E5131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FA8C931888D443005E5131 /* CoreGraphics.framework in Frameworks */,
+				94FA8C951888D443005E5131 /* UIKit.framework in Frameworks */,
+				94FA8C911888D443005E5131 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FA8CAE1888D443005E5131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FA8CB31888D443005E5131 /* XCTest.framework in Frameworks */,
+				94FA8CB51888D443005E5131 /* UIKit.framework in Frameworks */,
+				94FA8CB41888D443005E5131 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94FA8C841888D443005E5131 = {
+			isa = PBXGroup;
+			children = (
+				94FA8C961888D443005E5131 /* RGFlipbook */,
+				94FA8CB81888D443005E5131 /* RGFlipbookTests */,
+				94FA8C8F1888D443005E5131 /* Frameworks */,
+				94FA8C8E1888D443005E5131 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94FA8C8E1888D443005E5131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94FA8C8D1888D443005E5131 /* RGFlipbook.app */,
+				94FA8CB11888D443005E5131 /* RGFlipbookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94FA8C8F1888D443005E5131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94FA8C901888D443005E5131 /* Foundation.framework */,
+				94FA8C921888D443005E5131 /* CoreGraphics.framework */,
+				94FA8C941888D443005E5131 /* UIKit.framework */,
+				94FA8CB21888D443005E5131 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94FA8C961888D443005E5131 /* RGFlipbook */ = {
+			isa = PBXGroup;
+			children = (
+				94FA8C9F1888D443005E5131 /* CHAppDelegate.h */,
+				94FA8CA01888D443005E5131 /* CHAppDelegate.m */,
+				94FA8CA81888D443005E5131 /* CHViewController.h */,
+				94FA8CA91888D443005E5131 /* CHViewController.m */,
+				94FA8CAB1888D443005E5131 /* Images.xcassets */,
+				94FA8C971888D443005E5131 /* Supporting Files */,
+			);
+			path = RGFlipbook;
+			sourceTree = "<group>";
+		};
+		94FA8C971888D443005E5131 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94FA8C981888D443005E5131 /* RGFlipbook-Info.plist */,
+				94FA8C991888D443005E5131 /* InfoPlist.strings */,
+				94FA8C9C1888D443005E5131 /* main.m */,
+				94FA8C9E1888D443005E5131 /* RGFlipbook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94FA8CB81888D443005E5131 /* RGFlipbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				94FA8CBE1888D443005E5131 /* RGFlipbookTests.m */,
+				94FA8CB91888D443005E5131 /* Supporting Files */,
+			);
+			path = RGFlipbookTests;
+			sourceTree = "<group>";
+		};
+		94FA8CB91888D443005E5131 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94FA8CBA1888D443005E5131 /* RGFlipbookTests-Info.plist */,
+				94FA8CBB1888D443005E5131 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94FA8C8C1888D443005E5131 /* RGFlipbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FA8CC21888D443005E5131 /* Build configuration list for PBXNativeTarget "RGFlipbook" */;
+			buildPhases = (
+				94FA8C891888D443005E5131 /* Sources */,
+				94FA8C8A1888D443005E5131 /* Frameworks */,
+				94FA8C8B1888D443005E5131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGFlipbook;
+			productName = RGFlipbook;
+			productReference = 94FA8C8D1888D443005E5131 /* RGFlipbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94FA8CB01888D443005E5131 /* RGFlipbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FA8CC51888D443005E5131 /* Build configuration list for PBXNativeTarget "RGFlipbookTests" */;
+			buildPhases = (
+				94FA8CAD1888D443005E5131 /* Sources */,
+				94FA8CAE1888D443005E5131 /* Frameworks */,
+				94FA8CAF1888D443005E5131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94FA8CB71888D443005E5131 /* PBXTargetDependency */,
+			);
+			name = RGFlipbookTests;
+			productName = RGFlipbookTests;
+			productReference = 94FA8CB11888D443005E5131 /* RGFlipbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94FA8C851888D443005E5131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CH;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ryan Gomba";
+				TargetAttributes = {
+					94FA8CB01888D443005E5131 = {
+						TestTargetID = 94FA8C8C1888D443005E5131;
+					};
+				};
+			};
+			buildConfigurationList = 94FA8C881888D443005E5131 /* Build configuration list for PBXProject "RGFlipbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94FA8C841888D443005E5131;
+			productRefGroup = 94FA8C8E1888D443005E5131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94FA8C8C1888D443005E5131 /* RGFlipbook */,
+				94FA8CB01888D443005E5131 /* RGFlipbookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94FA8C8B1888D443005E5131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FA8CAC1888D443005E5131 /* Images.xcassets in Resources */,
+				94FA8C9B1888D443005E5131 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FA8CAF1888D443005E5131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FA8CBD1888D443005E5131 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94FA8C891888D443005E5131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FA8C9D1888D443005E5131 /* main.m in Sources */,
+				94FA8CA11888D443005E5131 /* CHAppDelegate.m in Sources */,
+				94FA8CAA1888D443005E5131 /* CHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FA8CAD1888D443005E5131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FA8CBF1888D443005E5131 /* RGFlipbookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94FA8CB71888D443005E5131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94FA8C8C1888D443005E5131 /* RGFlipbook */;
+			targetProxy = 94FA8CB61888D443005E5131 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94FA8C991888D443005E5131 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FA8C9A1888D443005E5131 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94FA8CBB1888D443005E5131 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FA8CBC1888D443005E5131 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94FA8CC01888D443005E5131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94FA8CC11888D443005E5131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94FA8CC31888D443005E5131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RGFlipbook/RGFlipbook-Prefix.pch";
+				INFOPLIST_FILE = "RGFlipbook/RGFlipbook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94FA8CC41888D443005E5131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RGFlipbook/RGFlipbook-Prefix.pch";
+				INFOPLIST_FILE = "RGFlipbook/RGFlipbook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		94FA8CC61888D443005E5131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RGFlipbook.app/RGFlipbook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RGFlipbook/RGFlipbook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RGFlipbookTests/RGFlipbookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		94FA8CC71888D443005E5131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RGFlipbook.app/RGFlipbook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RGFlipbook/RGFlipbook-Prefix.pch";
+				INFOPLIST_FILE = "RGFlipbookTests/RGFlipbookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94FA8C881888D443005E5131 /* Build configuration list for PBXProject "RGFlipbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FA8CC01888D443005E5131 /* Debug */,
+				94FA8CC11888D443005E5131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94FA8CC21888D443005E5131 /* Build configuration list for PBXNativeTarget "RGFlipbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FA8CC31888D443005E5131 /* Debug */,
+				94FA8CC41888D443005E5131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94FA8CC51888D443005E5131 /* Build configuration list for PBXNativeTarget "RGFlipbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FA8CC61888D443005E5131 /* Debug */,
+				94FA8CC71888D443005E5131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94FA8C851888D443005E5131 /* Project object */;
+}
